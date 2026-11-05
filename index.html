@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thư viện – Mượn sách trực tuyến</title>
+  <link rel="icon" type="image/png" href="/static/img/favicon.png">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" aria-label="Về trang chủ thư viện">
+        <img src="/static/img/logo.png" alt="Logo trường">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+      <nav class="topnav" id="topnav" aria-label="Điều hướng chính"></nav>
+    </div>
+  </header>
+  <div class="subbar">
+    <nav class="subnav" id="subnav" aria-label="Điều hướng phụ"></nav>
+  </div>
+
+  <main id="app" class="container" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="container">
+      <strong>Thư viện</strong> · Hệ thống đăng ký mượn sách trực tuyến<br>
+      <span class="muted">Mọi thắc mắc vui lòng liên hệ thủ thư tại quầy thư viện.</span>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modalRoot"></div>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
